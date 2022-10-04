@@ -1,0 +1,50 @@
+body {
+  color: rgb(7, 7, 7);
+  background-image: url('/assets/images/dark-wood.jpg');
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0 0 0 0;
+}
+
+.container {
+  width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(245, 245, 220);
+}
+
+.content {
+  line-height: 1.4em;
+  padding: 10px;
+}
+
+header, nav, footer {
+  background-color: rgb(240, 248, 255);
+  color: rgb(124, 245, 204);
+}
+
+nav > ul {
+  margin: 0;
+  padding: 5px;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+nav > ul > li > a:link {
+  color: cadetblue;
+}
+
+nav > ul > li > a:visited {
+  color: darkorange;
+}
+
+nav > ul > li > a:hover {
+  color: ghostwhite;
+}
+
+nav > ul > li > a:active {
+  color: forestgreen;
+}
